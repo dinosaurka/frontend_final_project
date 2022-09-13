@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Птицы Беларуси</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header start -->
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="./img/svg/bird-logo.svg" alt="Птицы Беларуси" class="header__logo-pic">
+                    </a>
+                </div>
+    
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#birds" class="header__link js-scroll">Птицы</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#locations" class="header__link js-scroll">Места для наблюдения</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#videos" class="header__link js-scroll">Видео</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#sign-in" class="header__link js-scroll">Войти</a>
+                        </li>
+					</ul>
+					<div class="header__nav-close">
+						<span class="header__nav-close-line"></span>
+						<span class="header__nav-close-line"></span>
+					</div>
+				</nav>
+				<div class="header__burger burger">
+					<span class="burger__line burger__line_first"></span>
+					<span class="burger__line burger__line_second"></span>
+					<span class="burger__line burger__line_third"></span>
+				</div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+
+    <main class="main">
+        <!-- Intro start -->
+        <section class="intro" id="sign-in">
+            <div class="wrapper">
+                <h1 class="intro__title">
+                    Знакомство с птицами Беларуси
+                </h1>
+                <p class="intro__subtitle">
+                    Не всегда легко найти ответ, чем же птицы так притягивают, и не только натуралистов - из человеческого стремления к знаниям или из-за разнообразия в мире пернатых. А может, причиной такого внимания становятся привлекательные, а вместе с тем и незнакомые голоса птиц?
+                </p>
+                <form class="search-form">
+                    <fieldset class="serach-form__wrap">
+                        <p class="search-form__info">
+                            <input type="text" name="user-like-to-do" class="search-form__field" placeholder="Какую птицу вы хотите найти?">
+                            <input type="text" name="user-like-to-do" class="search-form__field" placeholder="Где вы хотите найти птиц?">
+                            <button type="submit" class="search-form__submit">Найти</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <!-- Intro end -->
+        
+        <!-- Benefits start -->        
+        <section class="benefits">
+            <div class="benefits__wrap">
+                <h2 class="benefits__title">
+                    Наш сайт
+                </h2>
+                <div class="benefits__cards">
+                    <div class="benefits__card">
+                        <h3 class="benefits__card-title">
+                            Добро пожаловать!
+                        </h3>
+                        <p class="benefits__card-desc">
+                            Начинающие наблюдатели должны сначала научиться узнавать простейших и наиболее часто встречающихся в наших краях пернатых, особенно тех, что живут в городах.
+                        </p>
+                        <a href="#!" class="benefits__card-more">
+                            Узнать больше
+                        </a>
+                    </div>
+                    <div class="benefits__card">
+                        <h3 class="benefits__card-title">
+                            Ваша персональная страничка
+                        </h3>
+                        <p class="benefits__card-desc">
+                            Получите возможность добавлять в свою коллекцию новых увиденных птиц, а также делиться этим с друзьями.
+                        </p>
+                        <a href="#!" class="benefits__card-more">
+                            Узнать больше
+                        </a>
+                    </div>
+                    <div class="benefits__card">
+                        <h3 class="benefits__card-title">
+                                Где найти птиц?
+                        </h3>
+                        <p class="benefits__card-desc">
+                                Мы предложим места, в которых вы сможете открыть для себя новые виды.
+                        </p>
+                        <a href="#!" class="benefits__card-more">
+                            Узнать больше
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Benefits end -->   
+
+      <!-- Top start -->
+        <section class="top" id="birds">
+            <div class="wrapper-full">
+                <h2 class="top__title section-title">
+                    Подборка самых популярных птиц за неделю
+                </h2>
+
+                <div class="top__cards">
+
+                    <div class="top__card">
+                        <div class="top__card-pic">
+                            <img src="./img/top-pic-1-min.jpg" alt="Сойка" class="top__card-thumb">
+                            <div class="top__card-stats">
+                                <h3 class="top__card-title">
+                                    Сойка
+                                </h3>
+                                <div class="top__card-likes">
+                                    <span class="top__card-likes-value">
+                                        225
+                                    </span>
+                                </div>
+                                <div class="top__card-comments">
+                                    <span class="top__card-comments-value">
+                                        19
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="top__card-desc">
+                            В полете в глаза бросается белое подхвостье, белые и голубые пятна на крыльях.
+                        </p>
+                        <a href="#!" class="top__card-more">Узнать больше</a>
+                    </div>
+
+                    <div class="top__card">
+                        <div class="top__card-pic">
+                            <img src="./img/top-pic-2-min.jpg" alt="Коростель" class="top__card-thumb">
+                            <div class="top__card-stats">
+                                <h3 class="top__card-title">
+                                    Коростель
+                                </h3>
+                                <div class="top__card-likes">
+                                    <span class="top__card-likes-value">
+                                        221
+                                    </span>
+                                </div>
+                                <div class="top__card-comments">
+                                    <span class="top__card-comments-value">
+                                        50
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="top__card-desc">
+                            Очень пугливая, практически невозможно встретить. Однако при этом очень часто можно услышать, она издает непрерывные трещащие звуки.
+                        </p>
+                        <a href="#!" class="top__card-more">Узнать больше</a>
+                    </div>
+
+                    <div class="top__card">
+                        <div class="top__card-pic">
+                            <img src="./img/top-pic-3-min.jpg" alt="Зимородок" class="top__card-thumb">
+                            <div class="top__card-stats">
+                                <h3 class="top__card-title">
+                                    Зимородок
+                                </h3>
+                                <div class="top__card-likes">
+                                    <span class="top__card-likes-value">
+                                        261
+                                    </span>
+                                </div>
+                                <div class="top__card-comments">
+                                    <span class="top__card-comments-value">
+                                        39
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="top__card-desc">
+                            Компактная птица с большим клювом.  Чаще всего можно увидеть зимородка, когда он присаживается на торчащие коряги у воды.
+                        </p>
+                        <a href="#!" class="top__card-more">Узнать больше</a>
+                    </div>
+
+                    <div class="top__card">
+                        <div class="top__card-pic">
+                            <img src="./img/top-pic-4-min.jpg" alt="Обыкновенный козодой" class="top__card-thumb">
+                            <div class="top__card-stats">
+                                <h3 class="top__card-title">
+                                    Обыкновенный козодой
+                                </h3>
+                                <div class="top__card-likes">
+                                    <span class="top__card-likes-value">
+                                        250
+                                    </span>
+                                </div>
+                                <div class="top__card-comments">
+                                    <span class="top__card-comments-value">
+                                        70
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="top__card-desc">
+                           Птица не активна днем, хотя благодаря своей пестрой окраске хорошо сливается с окружающей средой. А её токовая песня слегка напоминает звук работающего трактора.
+                        </p>
+                        <a href="#!" class="top__card-more">Узнать больше</a>
+                    </div>
+
+                    <div class="top__card">
+                        <div class="top__card-pic">
+                            <img src="./img/top-pic-5-min.jpg" alt="Варакушка" class="top__card-thumb">
+                            <div class="top__card-stats">
+                                <h3 class="top__card-title">
+                                    Варакушка
+                                </h3>
+                                <div class="top__card-likes">
+                                    <span class="top__card-likes-value">
+                                        227
+                                    </span>
+                                </div>
+                                <div class="top__card-comments">
+                                    <span class="top__card-comments-value">
+                                        15
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="top__card-desc">
+                            Редкий для Беларуси вид. Ярко-синяя грудь характерна только для самцов.
+                        </p>
+                        <a href="#!" class="top__card-more">Узнать больше</a>
+                    </div>
+
+                    <div class="top__card">
+                        <div class="top__card-pic">
+                            <img src="./img/top-pic-6-min.jpg" alt="Пуночка" class="top__card-thumb">
+                            <div class="top__card-stats">
+                                <h3 class="top__card-title">
+                                    Пуночка
+                                </h3>
+                                <div class="top__card-likes">
+                                    <span class="top__card-likes-value">
+                                        290
+                                    </span>
+                                </div>
+                                <div class="top__card-comments">
+                                    <span class="top__card-comments-value">
+                                        60
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="top__card-desc">
+                            Окраска осенью и зимой отличается от весенней. Пролетный, зимующий вид. Поэтому для птиц, встречающихся в Беларуси, больше характерен коричневый цвет.
+                        </p>
+                        <a href="#!" class="top__card-more">Узнать больше</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Top end -->
+        
+        <!-- Places start -->  
+        <section class="places"  id="locations">
+            <div class="wrapper-full">
+                <div class="places__caption">
+                    <h2 class="places__title section-title">
+                        Лучшие места для бёрдвотчинга
+                    </h2>
+                    <a href="#!" class="places__view-all">Просмотреть все</a>
+                </div>
+
+                <div class="places__cards">
+
+                    <div class="places__card places__card_size_lg">
+                        <img src="./img/place-1-min.jpg" alt="Туров и пойма реки Припять" class="places__card-pic places__card-pic_size_lg">
+                        <h3 class="places__card-title">
+                            Туров и пойма реки Припять
+                        </h3>
+                        <a href="#!" class="places__card-link"></a>
+                    </div>
+
+                    <div class="places__card places__card_size_lg">
+                        <img src="./img/place-3-min.jpg" alt="Березинский биосферный заповедник" class="places__card-pic places__card-pic_size_lg">
+                        <h3 class="places__card-title">
+                            Березинский биосферный заповедник
+                        </h3>
+                        <a href="#!" class="places__card-link"></a>
+                    </div>
+                    
+                    <div class="places__card places__card_size_sm">
+                        <img src="./img/place-2-min.jpg" alt="Споровские болота" class="places__card-pic places__card-pic_size_sm">
+                        <h3 class="places__card-title">
+                            Споровские болота
+                        </h3>
+                        <a href="#!" class="places__card-link"></a>
+                    </div>
+
+                    <div class="places__card places__card_size_sm">
+                        <img src="./img/place-4-min.jpg" alt="Ельня" class="places__card-pic places__card-pic_size_sm">
+                        <h3 class="places__card-title">
+                            Ельня
+                        </h3>
+                        <a href="#!" class="places__card-link"></a>
+                    </div>
+
+                    <div class="places__card places__card_size_sm">
+                        <img src="./img/place-5-min.jpg" alt="Налибокская пуща" class="places__card-pic places__card-pic_size_sm">
+                        <h3 class="places__card-title">
+                            Налибокская пуща
+                        </h3>
+                        <a href="#!" class="places__card-link"></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Places end --> 
+
+        <!-- Tours start -->
+
+        <div class="tours">
+            <div class="wrapper-full">
+
+                <div class="tours__tour tour">
+                    <div class="tour__pic">
+                        <img src="./img/tour-1-min.jpg" alt="Глухари Налибокской пущи" class="tour__thumb">
+                    </div>
+                    <div class="tour__info">
+                        <h3 class="tour__title">
+                            Глухари Налибокской пущи
+                        </h3>
+                        <p class="tour__desc">
+                            Глухарь — самая крупная лесная птица Беларуси. Роскошные, но пугливые до безобразия. Сколько ни зови, ни выманивай лакомствами, по доброй воле глухари к людям не выйдут. Впрочем, есть в Беларуси местечко, где человеку удалось подружиться со своенравными крылатыми красавцами. Уникальный питомник уже несколько лет работает в Налибокской пуще. Глухарят тут выводят в условиях, которые полностью соответствую естественным, а потом отпускают в леса. Все для того, чтобы не дать погибнуть редкому западноевропейскому виду.
+                        </p>
+                        <a href="#!" class="tour__more">Подробнее</a>
+                    </div>
+                </div>
+
+                <div class="tours__tour tour">
+                    <div class="tour__info">
+                        <h3 class="tour__title">
+                            Птичий аэропорт в Ельне
+                        </h3>
+                        <p class="tour__desc">
+                            Болото Ельня туристы облюбовали благодаря комфортной дощатой экотропе и ярким пейзажам. Некогда огромное озеро в наши дни превратилось в 118 маленьких, разделенных трясиной. Пик сезона – осень, во время миграции здесь находятся тысячи журавлей. Не болото, а птичий аэровокзал. Среди других интересных пассажиров - кроншнеп, дербник, чернозобая гагара.
+
+А еще Ельня – одна из немногих точек на карте Беларуси, где можно понаблюдать за белой куропаткой. Правда, светлеет она непосредственно к зиме, чтобы не стать легкой добычей для хищников.
+                        </p>
+                        <a href="#!" class="tour__more">Подробнее</a>
+                    </div>
+                    <div class="tour__pic tour__pic_mob-first">
+                        <img src="./img/tour-2-min.jpg" alt="Птичий аэропорт" class="tour__thumb">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Tours end -->
+
+        <!-- Videos start -->
+        <div class="videos" id="videos">
+            <div class="videos__wrapper">
+                <div class="video__item"></div>
+                <iframe class="video__element" src="https://www.youtube.com/embed/aGVOXcNJWAQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- Videos end -->
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__item">
+                <div class="footer__logo">
+                    <img src="./img/svg/bird-logo-footer.svg" alt="Птицы Беларуси" class="footer__logo-pic">
+                </div>
+                <nav class="footer__nav">
+                    <ul class="footerm__menu">
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-title">Company</h3>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">About</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">Team</a>
+                        </li>
+                    </ul>
+                    <ul class="footerm__menu">
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-title">Info</h3>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">Birds</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">Locations</a>
+                        </li>
+                    </ul>
+                    <ul class="footerm__menu">
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-title">Social Media</h3>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">Facebook</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">Instagram</a>
+                        </li>          
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main-es5.min.js"></script>
+</body>
+</html>
